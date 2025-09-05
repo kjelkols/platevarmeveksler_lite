@@ -68,7 +68,7 @@ results = epsilon_ntu(
 )
 
 # --- Visning av resultater ---
-st.header("Beregnete parametre")
+st.header("Beregnede parametre")
 st.write(f"U-verdi: {u_value:.2f} W/m²K")
 st.write(f"UA-verdi: {ua_value:.1f} W/K")
 st.write(f"Varm side massestrøm: {hot_mass_flow*phe.number_of_channels:.2f} kg/s")
@@ -99,7 +99,7 @@ def create_pdf_report():
         <li>Kald luft inn: {cold_temp} °C, {cold_rh*100:.0f}% RF</li>
         <li>Lufthastighet: {velocity} m/s</li>
     </ul>
-    <h3>Beregnete parametre</h3>
+    <h3>Beregnede parametre</h3>
     <ul>
         <li>U-verdi: {u_value:.2f} W/m²K</li>
         <li>UA-verdi: {ua_value:.1f} W/K</li>
