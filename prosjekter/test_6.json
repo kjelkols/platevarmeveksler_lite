@@ -1,0 +1,17 @@
+{
+  "description": "6",
+  "inputs": {
+    "plate_width": 1.46,
+    "plate_height": 1.49,
+    "gap": 0.015,
+    "n_plates": 51,
+    "plate_thickness": 0.0005,
+    "hot_temp": 40.0,
+    "hot_rh": 0.5,
+    "cold_temp": 10.0,
+    "cold_rh": 0.9,
+    "velocity": 6.0
+  },
+  "__project_filename__": "test_6.json",
+  "__project_name__": "test_6"
+}
